@@ -1,0 +1,14 @@
+from models import WeatherInfoRequired
+
+wData = WeatherInfoRequired()
+wData.feelsLike = 123.99
+wData.maxWindSpeed = 123
+wData.temperature = 123
+wData.humidity = 123
+wData.pressure = 123
+wData.rainfall = 123
+wData.rainRate = 123
+wData.solarRadiation = 123
+wData.hStability = 123
+wData.vStability = 123
+wData.save()
